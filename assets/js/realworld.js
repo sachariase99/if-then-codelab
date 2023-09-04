@@ -26,17 +26,17 @@ nej */
 nej
 ja i disney film */
 
-// myAnswerButton.addEventListener('click', (e) => {
-//   e.preventDefault(); // Forhindrer standardformularindsendelse
+myAnswerButton.addEventListener('click', (e) => {
+  e.preventDefault(); // Forhindrer standardformularindsendelse
 
-//   const userAnswerValue = myAnswerSelect.value;
+  const userAnswerValue = myAnswerSelect.value;
 
-//   if (userAnswerValue === 'false') {
-//       myAnswerFeedbackElement.innerHTML = 'Svaret er forkert.';
-//   } else {
-//       myAnswerFeedbackElement.innerHTML = 'Svaret er korrekt!';
-//   }
-// });
+  if (userAnswerValue === 'false') {
+      myAnswerFeedbackElement.innerHTML = 'Svaret er forkert.';
+  } else {
+      myAnswerFeedbackElement.innerHTML = 'Svaret er korrekt!';
+  }
+});
 
 
 
